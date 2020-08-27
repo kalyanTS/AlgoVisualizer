@@ -25,7 +25,7 @@ var rate0=document.querySelector("#rate");
 
 
 var slider=document.querySelector("#slider0");
-slider.addEventListener("input",speedChange);
+slider.addEventListener("change",speedChange);
 
 var slider1=document.querySelector("#slider1");
 slider1.addEventListener("input",arrayChanged);
